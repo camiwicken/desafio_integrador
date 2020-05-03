@@ -1,0 +1,1301 @@
+* { margin: 0; padding: 0;}
+@import "_variable";
+
+/*__________________________________________________________________________________________HEADER*/
+header nav { background-color: white;
+        .nav-link {
+        @include notomedium;
+        color: $azul;
+        margin: 0px 10px 0px 10px;
+        }        
+}
+
+header img { width: 70%;}
+/*__________________________________________________________________________________________FOOTER*/
+footer { background-color: $azul;}
+
+footer p { 
+        @include robolight;
+        color: $crema;
+        margin-top: 2%;
+        margin-left: 1%;}
+
+.list-unstyled a { 
+            @include robolight;
+            color: $crema;}
+
+#redesfooter { list-style: none;}
+
+footer h5 { 
+           @include notoblack;
+           color: $crema; }
+
+.footer-copyright{ @include notomedium;
+           font-size: 12px; 
+           color: $crema;}    
+/*__________________________________________________________________________________________MOBILE*/
+
+.fondo { background-color: $celeste;}
+
+.violeta { background-color: $violeta;}
+
+
+/*----------------------------------------------------------------------------------------320----------*/
+@media only screen and ( min-width: 320px) {
+
+.postres_home { width:100%;
+                margin-top: 5%;
+                }
+
+.display-2 img {     width: 80%;}
+
+.pepa_foto {    width: 100%;
+                margin-top: 10%;
+                }
+
+.franja_blanca {
+        background-color: white;
+}
+
+
+.franja_blanca h2 
+        { @include notoblack;
+        color: $azul;
+        font-size: 30px;
+        margin-top: 5%;
+        }
+
+.franja_blanca p
+                { @include robolight;
+                color: $azul;
+                font-size: 15px;
+                width: 100%;
+                margin-top: 5%; 
+                }
+
+.franja_blanca a { 
+          background-color: $rosa;
+          border: none;
+          color: $azul;
+          padding: 5px 30px 5px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 2% 0% 6% 0%;
+          transition-duration: 0.5s;
+          cursor: pointer;
+          @include roboregular;
+          font-size: 17;
+        }
+          
+.franja_blanca a:hover {
+                background-color:$azul;
+                color: $rosa;
+          }
+ 
+
+.franja_violeta h2 
+                { @include notoblack;
+                color: $naranja;
+                font-size: 30px;
+                margin-top: 5%;
+                        }
+
+.franja_violeta p { 
+        @include robolight;
+        color: $naranja;
+        font-size: 15px;
+        width: 100%;
+        margin-top: 5%;
+        } 
+
+.franja_violeta a{ 
+        background-color: white;
+          border: none;
+          color: $azul;
+          padding: 5px 30px 5px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 2% 0% 6% 0%;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          @include roboregular;
+          font-size: 17px;
+        }
+          
+.franja_violeta a:hover {
+                background-color:$naranja;
+                color: $azul;
+          }
+
+.franja_naranja { background-color: $naranja;
+                h2 {
+                @include notoblack;
+                color: $azul;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 5%;
+                padding-bottom: 5%;
+        }
+                img {
+                width: 100%; 
+                margin: 5% 0% 5% 0%;      
+                }
+}
+
+.masmenu i { 
+        background-color: white;
+        padding: 5%;
+        color: $azul;
+        font-size: 20px;
+}
+
+.franja_pedido { background-color: white;
+        h2 { @include titulos;
+        text-align: center;
+        margin-top: 5%;}
+        p {
+        @include roboregular;
+        color: $azul;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 10%;     
+
+        }
+}
+
+.boton_rosa a { 
+        background-color: $rosa;
+        border: none;
+        color: $azul;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 2% 0% 30% 0%;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        @include roboregular;
+        font-size: 17;
+        margin-bottom: 10%;
+      }
+        
+.boton_rosa a:hover {
+              background-color:$azul;
+              color: $rosa;
+        }
+
+.boton_rosa p { @include notoblack;
+                color: $azul;
+                margin-bottom: 5%;
+        }
+
+        
+
+.franja_celeste { 
+                background-color: $celeste;
+                padding: 5% 0% 5% 0%;
+                h1{
+                @include notoblack;
+                color: $azul;
+                font-size: 40px;
+        }
+}
+
+.franja_celeste p{
+        @include parrafo;
+        padding-top: 5%;
+        width: 80%;
+        }
+
+.categoria { background-color: $celeste;}
+
+.list-group-item {
+        @include roboregular;
+        color: $azul;
+        position: relative;
+        display: block;
+        padding: 0.75rem 0rem;
+        border-bottom: 1px solid white;
+      }
+
+.list-group-item:hover {
+        @include robobold;
+        color: $azul;
+        text-decoration: none;
+ }
+
+.my-4 {
+        @include notoblack;
+        font-size: 25px;
+}
+
+.texto_centrado {
+        @include notomedium;
+        color: white;
+        font-size: 15px;
+        margin-top: 5%;
+}
+
+.postres_items { margin-bottom: 5%;}
+
+.card-body h5 {
+        @include roboregular;
+        font-size: 14px;
+        color: $rosa;
+        }
+
+.card-title {
+        font-size: 15px;
+        @include notomedium;
+        color: $azul;}
+
+.fondo_celeste { background-color: $celeste;}
+
+.fondo_celeste img { width: 100%;}
+
+.fondo_naranja { background-color: $naranja;}
+
+.fondo_naranja img { 
+        width: 100%;
+        margin-top: 5%;
+    }
+
+.franja_pedidonaranja { background-color: $naranja;
+        p {
+        @include roboregular;
+        color: $azul;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 10%;  
+
+        }
+}
+
+.franja_pedidonaranja h2 { 
+        @include notoblack;
+        color: $azul;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        } 
+
+.franja_pedidonaranja a{ 
+        background-color: white;
+          border: none;
+          color: $azul;
+          padding: 5px 30px 5px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 2% 0% 6% 0%;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          @include roboregular;
+          font-size: 17px;
+        }
+          
+.franja_pedidonaranja a:hover {
+                background-color:$azul;
+                color: white;
+          }
+
+.fondo_pedidos { background-color: $celeste;}
+
+.pedido { padding: 5% 0% 5% 0%;
+        h2 { @include titulos;
+        }}
+
+.pedido p {@include robolight;
+        color: $azul;
+        font-size: 15px;}
+
+.pedido img { width: 100%;}
+
+.pedido button { 
+        background-color: $rosa;
+        border: none;
+        color: $azul;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 2% 0% 30% 0%;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        @include roboregular;
+        font-size: 17;
+        margin-bottom: 10%;
+      }
+        
+.pedido button:hover {
+              background-color:$azul;
+              color: $rosa;
+        }
+
+.fondo_catering {background-color: $celeste;
+                padding-bottom: 5%;}
+
+.fondo_catering img {
+        width: 100%;
+        margin-top:4%;
+} 
+
+.img_grande {  width: 100%;}
+
+
+
+}
+
+/*----------------------------------------------------------------------------------------425----------*/
+@media only screen and ( min-width: 425px) {
+
+        .display-2 img {
+                width: 80%;}
+
+        .postres_home { width:100%;
+                        margin-top: 5%;
+                        }
+        
+        .pepa_foto {    width: 100%;
+                        margin-top: 10%;
+                        }
+        
+        .franja_blanca {
+                background-color: white;
+        }
+        
+        
+        .franja_blanca h2 
+                { @include notoblack;
+                color: $azul;
+                font-size: 30px;
+                margin-top: 5%;
+                }
+        
+        .franja_blanca p
+                        { @include robolight;
+                        color: $azul;
+                        font-size: 15px;
+                        width: 100%;
+                        margin-top: 5%; 
+                        }
+        
+        .franja_blanca a { 
+                  background-color: $rosa;
+                  border: none;
+                  color: $azul;
+                  padding: 5px 30px 5px 30px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin: 2% 0% 6% 0%;
+                  transition-duration: 0.5s;
+                  cursor: pointer;
+                  @include roboregular;
+                  font-size: 17;
+                }
+                  
+        .franja_blanca a:hover {
+                        background-color:$azul;
+                        color: $rosa;
+                  }
+         
+        
+        .franja_violeta h2 
+                        { @include notoblack;
+                        color: $naranja;
+                        font-size: 30px;
+                        margin-top: 5%;
+                                }
+        
+        .franja_violeta p { 
+                @include robolight;
+                color: $naranja;
+                font-size: 15px;
+                width: 100%;
+                margin-top: 5%;
+                } 
+        
+        .franja_violeta a{ 
+                background-color: white;
+                  border: none;
+                  color: $azul;
+                  padding: 5px 30px 5px 30px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin: 2% 0% 6% 0%;
+                  transition-duration: 0.4s;
+                  cursor: pointer;
+                  @include roboregular;
+                  font-size: 17px;
+                }
+                  
+        .franja_violeta a:hover {
+                        background-color:$naranja;
+                        color: $azul;
+                  }
+        
+        .franja_naranja { background-color: $naranja;
+                        h2 {
+                        @include notoblack;
+                        color: $azul;
+                        font-size: 30px;
+                        text-align: center;
+                        padding-top: 5%;
+                        padding-bottom: 5%;
+                }
+                        img {
+                        width: 100%; 
+                        margin: 5% 0% 5% 0%;      
+                        }
+        }
+        
+        .masmenu i { 
+                background-color: white;
+                padding: 5%;
+                color: $azul;
+                font-size: 20px;
+        }
+        
+        .franja_pedido { background-color: white;
+                h2 { @include titulos;
+                text-align: center;
+                margin-top: 5%;}
+                p {
+                @include roboregular;
+                color: $azul;
+                text-align: center;
+                margin-top: 5%;
+                margin-bottom: 10%;     
+        
+                }
+        }
+        
+        .boton_rosa a { 
+                background-color: $rosa;
+                border: none;
+                color: $azul;
+                padding: 5px 30px 5px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 2% 0% 30% 0%;
+                transition-duration: 0.5s;
+                cursor: pointer;
+                @include roboregular;
+                font-size: 17;
+                margin-bottom: 10%;
+              }
+                
+        .boton_rosa a:hover {
+                      background-color:$azul;
+                      color: $rosa;
+                }
+        
+        .boton_rosa p { @include notoblack;
+                        color: $azul;
+                        margin-bottom: 5%;
+                }
+        
+                
+        
+        .franja_celeste { 
+                        background-color: $celeste;
+                        padding: 5% 0% 5% 0%;
+                        h1{
+                        @include notoblack;
+                        color: $azul;
+                        font-size: 40px;
+                }
+        }
+        
+        .franja_celeste p{
+                @include parrafo;
+                padding-top: 5%;
+                width: 80%;
+                }
+        
+        .categoria { background-color: $celeste;}
+        
+        .list-group-item {
+                @include roboregular;
+                color: $azul;
+                position: relative;
+                display: block;
+                padding: 0.75rem 0rem;
+                border-bottom: 1px solid white;
+              }
+        
+        .list-group-item:hover {
+                @include robobold;
+                color: $azul;
+                text-decoration: none;
+         }
+        
+        .my-4 {
+                @include notoblack;
+                font-size: 25px;
+        }
+        
+        .texto_centrado {
+                @include notomedium;
+                color: white;
+                font-size: 15px;
+                margin-top: 5%;
+        }
+        
+        .postres_items { margin-bottom: 5%;}
+        
+        .card-body h5 {
+                @include roboregular;
+                font-size: 14px;
+                color: $rosa;
+                }
+        
+        .card-title {
+                font-size: 15px;
+                @include notomedium;
+                color: $azul;}
+        
+        .fondo_celeste { background-color: $celeste;}
+        
+        .fondo_celeste img { width: 100%;}
+        
+        .fondo_naranja { background-color: $naranja;}
+        
+        .fondo_naranja img { 
+                width: 100%;
+                margin-top: 5%;
+            }
+        
+        .franja_pedidonaranja { background-color: $naranja;
+                p {
+                @include roboregular;
+                color: $azul;
+                text-align: center;
+                margin-top: 5%;
+                margin-bottom: 10%;  
+        
+                }
+        }
+        
+        .franja_pedidonaranja h2 { 
+                @include notoblack;
+                color: $azul;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                } 
+        
+        .franja_pedidonaranja a{ 
+                background-color: white;
+                  border: none;
+                  color: $azul;
+                  padding: 5px 30px 5px 30px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin: 2% 0% 6% 0%;
+                  transition-duration: 0.4s;
+                  cursor: pointer;
+                  @include roboregular;
+                  font-size: 17px;
+                }
+                  
+        .franja_pedidonaranja a:hover {
+                        background-color:$azul;
+                        color: white;
+                  }
+        
+        .fondo_pedidos { background-color: $celeste;}
+        
+        .pedido { padding: 5% 0% 5% 0%;
+                h2 { @include titulos;
+                }}
+        
+        .pedido p {@include robolight;
+                color: $azul;
+                font-size: 15px;}
+        
+        .pedido img { width: 100%;}
+        
+        .pedido button { 
+                background-color: $rosa;
+                border: none;
+                color: $azul;
+                padding: 5px 30px 5px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 2% 0% 30% 0%;
+                transition-duration: 0.5s;
+                cursor: pointer;
+                @include roboregular;
+                font-size: 17;
+                margin-bottom: 10%;
+              }
+                
+        .pedido button:hover {
+                      background-color:$azul;
+                      color: $rosa;
+                }
+        
+        .fondo_catering {background-color: $celeste;
+                        padding-bottom: 5%;}
+        
+        .fondo_catering img {
+                width: 100%;
+                margin-top:4%;
+        } 
+        
+        .img_grande {  width: 100%;}
+        
+        
+        
+        }
+
+
+/*----------------------------------------------------------------------------------------768----------*/
+@media only screen and ( min-width: 768px) {
+
+.display-2 img {
+        width: 70%;
+        margin-bottom: 9%;}
+
+.pb-5 {
+        padding-bottom: 0rem !important;
+
+}
+.postres_home { width:100%;
+        margin-top: 5%;
+        }
+
+.pepa_foto {    width: 100%;
+        margin-top: 10%;
+        }
+
+.franja_blanca {
+        background-color: white;
+        margin-top: 3%;
+        padding-left: 3%;
+}
+
+
+.franja_blanca h2 
+{ @include notoblack;
+color: $azul;
+font-size: 111%;
+margin-top: 5%;
+}
+
+.franja_blanca p
+        { @include robolight;
+        color: $azul;
+        font-size: 60%;
+        width: 91%;
+        margin-top: 3%; 
+        }
+
+.franja_blanca a { 
+  background-color: $rosa;
+  border: none;
+  color: $azul;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: -2%;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  @include roboregular;
+  font-size: 60%;
+}
+  
+.franja_blanca a:hover {
+        background-color:$azul;
+        color: $rosa;
+  }
+
+
+.franja_violeta { padding-top: 3%;}
+
+.justify-content-center { padding: 0% 0% 3% 0%;}
+
+.franja_violeta h2 
+        { @include notoblack;
+        color: $naranja;
+        font-size: 111%;
+        margin-top: 5%;
+                }
+
+.franja_violeta p { 
+@include robolight;
+color: $naranja;
+font-size: 60%;
+width: 100%;
+margin-top: 5%;
+} 
+
+.franja_violeta a{ 
+background-color: white;
+  border: none;
+  color: $azul;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2% 0% 6% 0%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  @include roboregular;
+  font-size: 60%;
+}
+  
+.franja_violeta a:hover {
+        background-color:$naranja;
+        color: $azul;
+  }
+
+.franja_naranja { background-color: $naranja;
+        h2 {
+        @include notoblack;
+        color: $azul;
+        font-size: 111%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+        img {
+        width: 100%; 
+        margin: 5% 0% 5% 0%;      
+        }
+}
+
+.masmenu i { 
+background-color: white;
+padding: 5%;
+color: $azul;
+font-size: 20px;
+}
+
+.franja_pedido { background-color: white;
+h2 { @include titulos;
+text-align: center;
+font-size: 111%;
+margin-top: 5%;}
+p {
+@include roboregular;
+color: $azul;
+text-align: center;
+font-size: 60%;
+margin-top: 5%;
+margin-bottom: 10%;     
+
+}
+}
+
+.boton_rosa a { 
+background-color: $rosa;
+border: none;
+color: $azul;
+padding: 5px 30px 5px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 2% 0% 30% 0%;
+transition-duration: 0.5s;
+cursor: pointer;
+@include roboregular;
+font-size: 60%;
+margin-bottom: 10%;
+}
+
+.boton_rosa a:hover {
+      background-color:$azul;
+      color: $rosa;
+}
+
+.boton_rosa p { @include notoblack;
+        color: $azul;
+        margin-bottom: 5%;
+}
+
+
+
+.franja_celeste { 
+        background-color: $celeste;
+        padding: 4% 0% 0% 0%;
+        h1{
+        @include notoblack;
+        color: $azul;
+        font-size: 190%;
+}
+}
+
+.franja_celeste p{
+@include parrafo;
+padding-top: 5%;
+font-size: 60%;
+}
+
+.categoria { background-color: $celeste;}
+
+.list-group-item {
+@include roboregular;
+color: $azul;
+position: relative;
+display: block;
+padding: 0.75rem 0rem;
+border-bottom: 1px solid white;
+}
+
+.list-group-item:hover {
+@include robobold;
+color: $azul;
+text-decoration: none;
+}
+
+.my-4 {
+@include notoblack;
+font-size: 25px;
+}
+
+.texto_centrado {
+@include notomedium;
+color: white;
+font-size: 15px;
+margin-top: 5%;
+}
+
+.postres_items { margin-bottom: 5%;}
+
+.card-body h5 {
+@include roboregular;
+font-size: 14px;
+color: $rosa;
+}
+
+.card-title {
+font-size: 15px;
+@include notomedium;
+color: $azul;}
+
+.fondo_celeste { background-color: $celeste;}
+
+.fondo_celeste img { width: 100%;}
+
+.fondo_naranja { background-color: $naranja;}
+
+.fondo_naranja img { 
+width: 100%;
+margin-top: 5%;
+}
+
+.franja_pedidonaranja { background-color: $naranja;
+p {
+@include roboregular;
+color: $azul;
+text-align: center;
+font-size: 60%;
+margin-top: 5%;
+margin-bottom: 10%;  
+
+}
+}
+
+.franja_pedidonaranja h2 { 
+@include notoblack;
+color: $azul;
+font-size: 111%;
+text-align: center;
+} 
+
+.franja_pedidonaranja a{ 
+background-color: white;
+  border: none;
+  color: $azul;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2% 0% 6% 0%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  @include roboregular;
+  font-size: 60%;
+}
+  
+.franja_pedidonaranja a:hover {
+        background-color:$azul;
+        color: white;
+  }
+
+.fondo_pedidos { background-color: $celeste;}
+
+.pedido { padding: 5% 0% 5% 0%;
+h2 { @include titulos;
+}}
+
+.pedido p {@include robolight;
+color: $azul;
+font-size: 15px;}
+
+.pedido img { width: 100%;}
+
+.pedido button { 
+background-color: $rosa;
+border: none;
+color: $azul;
+padding: 5px 30px 5px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 2% 0% 30% 0%;
+transition-duration: 0.5s;
+cursor: pointer;
+@include roboregular;
+font-size: 17;
+margin-bottom: 10%;
+}
+
+.pedido button:hover {
+      background-color:$azul;
+      color: $rosa;
+}
+
+.fondo_catering {background-color: $celeste;}
+
+.fondo_catering img {
+width: 100%;
+} 
+
+.fondo_catering .img_grande { width: 81%;}
+
+
+}
+
+/*----------------------------------------------------------------------------------------1024----------*/
+@media only screen and ( min-width: 1024px) {
+
+.display-2 img {
+        width: 50%;
+        margin-bottom: 9%;}
+
+.pb-5 {
+        padding-bottom: 0rem !important;
+
+}
+.postres_home { width:100%;
+        margin-top: 5%;
+        }
+
+.pepa_foto {    width: 100%;
+        margin-top: 10%;
+        }
+
+.franja_blanca {
+        background-color: white;
+        margin-top: 3%;
+        padding-left: 3%;
+}
+
+
+.franja_blanca h2 
+{ @include notoblack;
+color: $azul;
+font-size: 30px;
+margin-top: 5%;
+}
+
+.franja_blanca p
+        { @include robolight;
+        color: $azul;
+        font-size: 15px;
+        width: 91%;
+        margin-top: 3%; 
+        }
+
+.franja_blanca a { 
+  background-color: $rosa;
+  border: none;
+  color: $azul;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: -2%;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  @include roboregular;
+  font-size: 15px;
+}
+  
+.franja_blanca a:hover {
+        background-color:$azul;
+        color: $rosa;
+  }
+
+
+.franja_violeta { padding-top: 3%;}
+
+.justify-content-center { padding: 0% 0% 3% 0%;}
+
+.franja_violeta h2 
+        { @include notoblack;
+        color: $naranja;
+        font-size: 30px;
+        margin-top: 5%;
+                }
+
+.franja_violeta p { 
+@include robolight;
+color: $naranja;
+font-size: 15px;
+width: 100%;
+margin-top: 5%;
+} 
+
+.franja_violeta a{ 
+background-color: white;
+  border: none;
+  color: $azul;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2% 0% 6% 0%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  @include roboregular;
+  font-size: 15px;
+}
+  
+.franja_violeta a:hover {
+        background-color:$naranja;
+        color: $azul;
+  }
+
+.franja_naranja { background-color: $naranja;
+        h2 {
+        @include notoblack;
+        color: $azul;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+        img {
+        width: 100%; 
+        margin: 5% 0% 5% 0%;      
+        }
+}
+
+.masmenu i { 
+background-color: white;
+padding: 5%;
+color: $azul;
+font-size: 20px;
+}
+
+.franja_pedido { background-color: white;
+h2 { @include titulos;
+text-align: center;
+font-size: 30px;
+margin-top: 5%;}
+p {
+@include roboregular;
+color: $azul;
+text-align: center;
+font-size: 15px;
+margin-top: 5%;
+margin-bottom: 10%;     
+
+}
+}
+
+.boton_rosa a { 
+background-color: $rosa;
+border: none;
+color: $azul;
+padding: 5px 30px 5px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 2% 0% 30% 0%;
+transition-duration: 0.5s;
+cursor: pointer;
+@include roboregular;
+font-size: 15px;
+margin-bottom: 10%;
+}
+
+.boton_rosa a:hover {
+      background-color:$azul;
+      color: $rosa;
+}
+
+.boton_rosa p { @include notoblack;
+        color: $azul;
+        margin-bottom: 5%;
+}
+
+
+
+.franja_celeste { 
+        background-color: $celeste;
+        padding: 4% 0% 0% 0%;
+        h1{
+        @include notoblack;
+        color: $azul;
+        font-size: 35px;
+}
+}
+
+.franja_celeste p{
+@include parrafo;
+padding-top: 5%;
+font-size: 15px;
+}
+
+.categoria { background-color: $celeste;}
+
+.list-group-item {
+@include roboregular;
+color: $azul;
+position: relative;
+display: block;
+padding: 0.75rem 0rem;
+border-bottom: 1px solid white;
+}
+
+.list-group-item:hover {
+@include robobold;
+color: $azul;
+text-decoration: none;
+}
+
+.my-4 {
+@include notoblack;
+font-size: 25px;
+}
+
+.texto_centrado {
+@include notomedium;
+color: white;
+font-size: 15px;
+margin-top: 5%;
+}
+
+.postres_items { margin-bottom: 5%;}
+
+.card-body h5 {
+@include roboregular;
+font-size: 14px;
+color: $rosa;
+}
+
+.card-title {
+font-size: 15px;
+@include notomedium;
+color: $azul;}
+
+.fondo_celeste { background-color: $celeste;}
+
+.fondo_celeste img { width: 100%;}
+
+.fondo_naranja { background-color: $naranja;}
+
+.fondo_naranja img { 
+width: 100%;
+margin-top: 5%;
+}
+
+.franja_pedidonaranja { background-color: $naranja;
+p {
+@include roboregular;
+color: $azul;
+text-align: center;
+font-size: 15px;
+margin-top: 5%;
+margin-bottom: 10%;  
+
+}
+}
+
+.franja_pedidonaranja h2 { 
+@include notoblack;
+color: $azul;
+font-size: 30px;
+text-align: center;
+} 
+
+.franja_pedidonaranja a{ 
+background-color: white;
+  border: none;
+  color: $azul;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2% 0% 6% 0%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  @include roboregular;
+  font-size: 15px;
+}
+  
+.franja_pedidonaranja a:hover {
+        background-color:$azul;
+        color: white;
+  }
+
+.fondo_pedidos { background-color: $celeste;}
+
+.pedido { padding: 5% 0% 5% 0%;
+h2 { @include titulos;
+}}
+
+.pedido p {@include robolight;
+color: $azul;
+font-size: 15px;}
+
+.pedido img { width: 100%;}
+
+.pedido button { 
+background-color: $rosa;
+border: none;
+color: $azul;
+padding: 5px 30px 5px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 2% 0% 30% 0%;
+transition-duration: 0.5s;
+cursor: pointer;
+@include roboregular;
+font-size: 15px;
+margin-bottom: 10%;
+}
+
+.pedido button:hover {
+      background-color:$azul;
+      color: $rosa;
+}
+
+.fondo_catering {background-color: $celeste;}
+
+.fondo_catering img {
+width: 100%;
+} 
+
+.fondo_catering .img_grande {
+        width: 88%;
+        margin-top: 2%;}
+
+
+}
