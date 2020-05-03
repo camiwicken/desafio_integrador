@@ -1,0 +1,1393 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*__________________________________________________________________________________________HEADER*/
+header nav {
+  background-color: white;
+}
+
+header nav .nav-link {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 500;
+  color: #131B2C;
+  margin: 0px 10px 0px 10px;
+}
+
+header img {
+  width: 70%;
+}
+
+/*__________________________________________________________________________________________FOOTER*/
+footer {
+  background-color: #131B2C;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ECE3D6;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.list-unstyled a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ECE3D6;
+}
+
+#redesfooter {
+  list-style: none;
+}
+
+footer h5 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 900;
+  color: #ECE3D6;
+}
+
+.footer-copyright {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ECE3D6;
+}
+
+/*__________________________________________________________________________________________MOBILE*/
+.fondo {
+  background-color: #5CD6B5;
+}
+
+.violeta {
+  background-color: #5C006A;
+}
+
+/*----------------------------------------------------------------------------------------320----------*/
+@media only screen and (min-width: 320px) {
+  .postres_home {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .display-2 img {
+    width: 80%;
+  }
+  .pepa_foto {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .franja_blanca {
+    background-color: white;
+  }
+  .franja_blanca h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_blanca p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_blanca a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+  }
+  .franja_blanca a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .franja_violeta h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #FF7A00;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_violeta p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FF7A00;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_violeta a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .franja_violeta a:hover {
+    background-color: #FF7A00;
+    color: #131B2C;
+  }
+  .franja_naranja {
+    background-color: #FF7A00;
+  }
+  .franja_naranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .franja_naranja img {
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+  }
+  .masmenu i {
+    background-color: white;
+    padding: 5%;
+    color: #131B2C;
+    font-size: 20px;
+  }
+  .franja_pedido {
+    background-color: white;
+  }
+  .franja_pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .franja_pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .boton_rosa p {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    margin-bottom: 5%;
+  }
+  .franja_celeste {
+    background-color: #5CD6B5;
+    padding: 5% 0% 5% 0%;
+  }
+  .franja_celeste h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 40px;
+  }
+  .franja_celeste p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5%;
+    width: 80%;
+  }
+  .categoria {
+    background-color: #5CD6B5;
+  }
+  .list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    position: relative;
+    display: block;
+    padding: 0.75rem 0rem;
+    border-bottom: 1px solid white;
+  }
+  .list-group-item:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #131B2C;
+    text-decoration: none;
+  }
+  .my-4 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .texto_centrado {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  .postres_items {
+    margin-bottom: 5%;
+  }
+  .card-body h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFAEB9;
+  }
+  .card-title {
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: #131B2C;
+  }
+  .fondo_celeste {
+    background-color: #5CD6B5;
+  }
+  .fondo_celeste img {
+    width: 100%;
+  }
+  .fondo_naranja {
+    background-color: #FF7A00;
+  }
+  .fondo_naranja img {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_pedidonaranja {
+    background-color: #FF7A00;
+  }
+  .franja_pedidonaranja p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .franja_pedidonaranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .franja_pedidonaranja a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .franja_pedidonaranja a:hover {
+    background-color: #131B2C;
+    color: white;
+  }
+  .fondo_pedidos {
+    background-color: #5CD6B5;
+  }
+  .pedido {
+    padding: 5% 0% 5% 0%;
+  }
+  .pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+  }
+  .pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+  }
+  .pedido img {
+    width: 100%;
+  }
+  .pedido button {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin-bottom: 10%;
+  }
+  .pedido button:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .fondo_catering {
+    background-color: #5CD6B5;
+    padding-bottom: 5%;
+  }
+  .fondo_catering img {
+    width: 100%;
+    margin-top: 4%;
+  }
+  .img_grande {
+    width: 100%;
+  }
+}
+
+/*----------------------------------------------------------------------------------------425----------*/
+@media only screen and (min-width: 425px) {
+  .display-2 img {
+    width: 80%;
+  }
+  .postres_home {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .pepa_foto {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .franja_blanca {
+    background-color: white;
+  }
+  .franja_blanca h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_blanca p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_blanca a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+  }
+  .franja_blanca a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .franja_violeta h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #FF7A00;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_violeta p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FF7A00;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_violeta a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .franja_violeta a:hover {
+    background-color: #FF7A00;
+    color: #131B2C;
+  }
+  .franja_naranja {
+    background-color: #FF7A00;
+  }
+  .franja_naranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .franja_naranja img {
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+  }
+  .masmenu i {
+    background-color: white;
+    padding: 5%;
+    color: #131B2C;
+    font-size: 20px;
+  }
+  .franja_pedido {
+    background-color: white;
+  }
+  .franja_pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .franja_pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .boton_rosa p {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    margin-bottom: 5%;
+  }
+  .franja_celeste {
+    background-color: #5CD6B5;
+    padding: 5% 0% 5% 0%;
+  }
+  .franja_celeste h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 40px;
+  }
+  .franja_celeste p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5%;
+    width: 80%;
+  }
+  .categoria {
+    background-color: #5CD6B5;
+  }
+  .list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    position: relative;
+    display: block;
+    padding: 0.75rem 0rem;
+    border-bottom: 1px solid white;
+  }
+  .list-group-item:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #131B2C;
+    text-decoration: none;
+  }
+  .my-4 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .texto_centrado {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  .postres_items {
+    margin-bottom: 5%;
+  }
+  .card-body h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFAEB9;
+  }
+  .card-title {
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: #131B2C;
+  }
+  .fondo_celeste {
+    background-color: #5CD6B5;
+  }
+  .fondo_celeste img {
+    width: 100%;
+  }
+  .fondo_naranja {
+    background-color: #FF7A00;
+  }
+  .fondo_naranja img {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_pedidonaranja {
+    background-color: #FF7A00;
+  }
+  .franja_pedidonaranja p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .franja_pedidonaranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .franja_pedidonaranja a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .franja_pedidonaranja a:hover {
+    background-color: #131B2C;
+    color: white;
+  }
+  .fondo_pedidos {
+    background-color: #5CD6B5;
+  }
+  .pedido {
+    padding: 5% 0% 5% 0%;
+  }
+  .pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+  }
+  .pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+  }
+  .pedido img {
+    width: 100%;
+  }
+  .pedido button {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin-bottom: 10%;
+  }
+  .pedido button:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .fondo_catering {
+    background-color: #5CD6B5;
+    padding-bottom: 5%;
+  }
+  .fondo_catering img {
+    width: 100%;
+    margin-top: 4%;
+  }
+  .img_grande {
+    width: 100%;
+  }
+}
+
+/*----------------------------------------------------------------------------------------768----------*/
+@media only screen and (min-width: 768px) {
+  .display-2 img {
+    width: 70%;
+    margin-bottom: 9%;
+  }
+  .pb-5 {
+    padding-bottom: 0rem !important;
+  }
+  .postres_home {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .pepa_foto {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .franja_blanca {
+    background-color: white;
+    margin-top: 3%;
+    padding-left: 3%;
+  }
+  .franja_blanca h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 111%;
+    margin-top: 5%;
+  }
+  .franja_blanca p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 60%;
+    width: 91%;
+    margin-top: 3%;
+  }
+  .franja_blanca a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -2%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60%;
+  }
+  .franja_blanca a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .franja_violeta {
+    padding-top: 3%;
+  }
+  .justify-content-center {
+    padding: 0% 0% 3% 0%;
+  }
+  .franja_violeta h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #FF7A00;
+    font-size: 111%;
+    margin-top: 5%;
+  }
+  .franja_violeta p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FF7A00;
+    font-size: 60%;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_violeta a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60%;
+  }
+  .franja_violeta a:hover {
+    background-color: #FF7A00;
+    color: #131B2C;
+  }
+  .franja_naranja {
+    background-color: #FF7A00;
+  }
+  .franja_naranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 111%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .franja_naranja img {
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+  }
+  .masmenu i {
+    background-color: white;
+    padding: 5%;
+    color: #131B2C;
+    font-size: 20px;
+  }
+  .franja_pedido {
+    background-color: white;
+  }
+  .franja_pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    font-size: 111%;
+    margin-top: 5%;
+  }
+  .franja_pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    font-size: 60%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60%;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .boton_rosa p {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    margin-bottom: 5%;
+  }
+  .franja_celeste {
+    background-color: #5CD6B5;
+    padding: 4% 0% 0% 0%;
+  }
+  .franja_celeste h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 190%;
+  }
+  .franja_celeste p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5%;
+    font-size: 60%;
+  }
+  .categoria {
+    background-color: #5CD6B5;
+  }
+  .list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    position: relative;
+    display: block;
+    padding: 0.75rem 0rem;
+    border-bottom: 1px solid white;
+  }
+  .list-group-item:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #131B2C;
+    text-decoration: none;
+  }
+  .my-4 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .texto_centrado {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  .postres_items {
+    margin-bottom: 5%;
+  }
+  .card-body h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFAEB9;
+  }
+  .card-title {
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: #131B2C;
+  }
+  .fondo_celeste {
+    background-color: #5CD6B5;
+  }
+  .fondo_celeste img {
+    width: 100%;
+  }
+  .fondo_naranja {
+    background-color: #FF7A00;
+  }
+  .fondo_naranja img {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_pedidonaranja {
+    background-color: #FF7A00;
+  }
+  .franja_pedidonaranja p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    font-size: 60%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .franja_pedidonaranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 111%;
+    text-align: center;
+  }
+  .franja_pedidonaranja a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60%;
+  }
+  .franja_pedidonaranja a:hover {
+    background-color: #131B2C;
+    color: white;
+  }
+  .fondo_pedidos {
+    background-color: #5CD6B5;
+  }
+  .pedido {
+    padding: 5% 0% 5% 0%;
+  }
+  .pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+  }
+  .pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+  }
+  .pedido img {
+    width: 100%;
+  }
+  .pedido button {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin-bottom: 10%;
+  }
+  .pedido button:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .fondo_catering {
+    background-color: #5CD6B5;
+  }
+  .fondo_catering img {
+    width: 100%;
+  }
+  .fondo_catering .img_grande {
+    width: 81%;
+  }
+}
+
+/*----------------------------------------------------------------------------------------1024----------*/
+@media only screen and (min-width: 1024px) {
+  .display-2 img {
+    width: 50%;
+    margin-bottom: 9%;
+  }
+  .pb-5 {
+    padding-bottom: 0rem !important;
+  }
+  .postres_home {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .pepa_foto {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .franja_blanca {
+    background-color: white;
+    margin-top: 3%;
+    padding-left: 3%;
+  }
+  .franja_blanca h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_blanca p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    width: 91%;
+    margin-top: 3%;
+  }
+  .franja_blanca a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -2%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .franja_blanca a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .franja_violeta {
+    padding-top: 3%;
+  }
+  .justify-content-center {
+    padding: 0% 0% 3% 0%;
+  }
+  .franja_violeta h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #FF7A00;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_violeta p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FF7A00;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_violeta a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .franja_violeta a:hover {
+    background-color: #FF7A00;
+    color: #131B2C;
+  }
+  .franja_naranja {
+    background-color: #FF7A00;
+  }
+  .franja_naranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .franja_naranja img {
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+  }
+  .masmenu i {
+    background-color: white;
+    padding: 5%;
+    color: #131B2C;
+    font-size: 20px;
+  }
+  .franja_pedido {
+    background-color: white;
+  }
+  .franja_pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .franja_pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+  .boton_rosa a:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .boton_rosa p {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    margin-bottom: 5%;
+  }
+  .franja_celeste {
+    background-color: #5CD6B5;
+    padding: 4% 0% 0% 0%;
+  }
+  .franja_celeste h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 35px;
+  }
+  .franja_celeste p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5%;
+    font-size: 15px;
+  }
+  .categoria {
+    background-color: #5CD6B5;
+  }
+  .list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    position: relative;
+    display: block;
+    padding: 0.75rem 0rem;
+    border-bottom: 1px solid white;
+  }
+  .list-group-item:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #131B2C;
+    text-decoration: none;
+  }
+  .my-4 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .texto_centrado {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    margin-top: 5%;
+  }
+  .postres_items {
+    margin-bottom: 5%;
+  }
+  .card-body h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFAEB9;
+  }
+  .card-title {
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    color: #131B2C;
+  }
+  .fondo_celeste {
+    background-color: #5CD6B5;
+  }
+  .fondo_celeste img {
+    width: 100%;
+  }
+  .fondo_naranja {
+    background-color: #FF7A00;
+  }
+  .fondo_naranja img {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .franja_pedidonaranja {
+    background-color: #FF7A00;
+  }
+  .franja_pedidonaranja p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #131B2C;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .franja_pedidonaranja h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+    text-align: center;
+  }
+  .franja_pedidonaranja a {
+    background-color: white;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 6% 0%;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .franja_pedidonaranja a:hover {
+    background-color: #131B2C;
+    color: white;
+  }
+  .fondo_pedidos {
+    background-color: #5CD6B5;
+  }
+  .pedido {
+    padding: 5% 0% 5% 0%;
+  }
+  .pedido h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #131B2C;
+    font-size: 30px;
+  }
+  .pedido p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #131B2C;
+    font-size: 15px;
+  }
+  .pedido img {
+    width: 100%;
+  }
+  .pedido button {
+    background-color: #FFAEB9;
+    border: none;
+    color: #131B2C;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 0% 30% 0%;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+  .pedido button:hover {
+    background-color: #131B2C;
+    color: #FFAEB9;
+  }
+  .fondo_catering {
+    background-color: #5CD6B5;
+  }
+  .fondo_catering img {
+    width: 100%;
+  }
+  .fondo_catering .img_grande {
+    width: 88%;
+    margin-top: 2%;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
